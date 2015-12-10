@@ -107,7 +107,7 @@ amqp.connect('amqp://localhost', function(err, conn) {
 
 注意：我们在此声明了queue。因为接受者启动可能在发送者之前，所以当尝试去消费队列的时候，我们需要确保队列已经存在。
 
-我们要告诉服务器把消息通过队列传输过来。因为它会异步的推送过来，所以我们提供了一个callback会在RabbitMQ发送给消费者的时候执行。Channel.consume如下：
+我们要告诉服务器把消息通过队列传输过来。因为它会异步的推送过来，所以我们提供了callback函数会在RabbitMQ发送给消费者的时候执行。Channel.consume如下：
 
 ```js
 console.log(" [*] Waiting for messages in %s. To exit press CTRL+C", q);
