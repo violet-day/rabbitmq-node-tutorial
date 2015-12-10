@@ -78,8 +78,6 @@ amqp.connect('amqp://localhost', function(err, conn) {
 setTimeout(function() { conn.close(); process.exit(0) }, 500);
 ```
 
-Here's the whole send.js script.
-
 ####发送失败？
 
 如果这事你第一次使用RabbitMQ并且你并没有能看到"Sent"信息，你可能会抓破脑皮想知道哪里出错了。原因可能是代理没有足够的硬盘空间（默认需要1GB）导致拒绝接受消息。如果有必要的话，检查代理的日志文件减少需求限制。[配置文档会](http://www.rabbitmq.com/configure.html#config-items)说明如何设置`disk_free_limit`
@@ -117,8 +115,6 @@ ch.consume(q, function(msg) {
   console.log(" [x] Received %s", msg.content.toString());
 }, {noAck: true});
 ```
-
-Here's the whole receive.js script.
 
 ```
 $ ./send.js
