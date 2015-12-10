@@ -1,0 +1,22 @@
+{
+  "name": "rabbitmq-node-tutorial",
+  "version": "1.0.0",
+  "description": "rabbitmq-node-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violet-day/rabbitmq-node-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violet-day/rabbitmq-node-tutorial/issues"
+  },
+  "homepage": "https://github.com/violet-day/rabbitmq-node-tutorial#readme",
+  "dependencies": {
+    "amqplib": "^0.4.0"
+  }
+}
