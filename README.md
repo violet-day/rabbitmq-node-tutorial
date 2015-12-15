@@ -1,5 +1,7 @@
 # rabbitmq-node-tutorial
-rabbitmq-node-tutorial
+
+1. ["Hello World!"](tutorial-one-javascript.md)
+1. [Work queues](tutorial-two-javascript.md)
 
 ## Reference
 * [rabbitmq get started](https://www.rabbitmq.com/getstarted.html)
