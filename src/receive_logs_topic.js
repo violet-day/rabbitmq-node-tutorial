@@ -8,7 +8,7 @@ if (args.length == 0) {
   process.exit(1);
 }
 
-amqp.connect('amqp://hermes_notify:123456@192.168.80.60:5672/hermes_notify', function(err, conn) {
+amqp.connect('amqp://localhost', function(err, conn) {
   conn.createChannel(function(err, ch) {
     var ex = 'topic_logs';
 
