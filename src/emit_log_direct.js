@@ -3,7 +3,6 @@
  */
 
 var amqp = require('amqplib/callback_api');
-var msg = process.argv.slice(2).join(' ') || "Hello World!";
 
 amqp.connect('amqp://localhost', function (err, conn) {
   conn.createChannel(function (err, ch) {
