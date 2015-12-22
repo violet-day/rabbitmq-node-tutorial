@@ -3,6 +3,7 @@
 1. ["Hello World!"](tutorial-one-javascript.md) The simplest thing that does something
 1. [Work queues](tutorial-two-javascript.md)    Distributing tasks among workers
 1. [Publish/Subscribe](tutorial-three-javascript.md)    Sending messages to many consumers at once
+1. [Routing](tutorial-four-javascript.md)    Receiving messages selectively
 
 ## Reference
 * [rabbitmq get started](https://www.rabbitmq.com/getstarted.html)
