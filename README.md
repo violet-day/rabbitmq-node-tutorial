@@ -5,6 +5,7 @@
 1. [Publish/Subscribe](tutorial-three-javascript.md)    Sending messages to many consumers at once
 1. [Routing](tutorial-four-javascript.md)    Receiving messages selectively
 1. [Topics](tutorial-five-javascript.md)    Receiving messages based on a pattern
+1. [RPC](tutorial-six-javascript.md)    Remote procedure call implementation
 
 ## Reference
 * [rabbitmq get started](https://www.rabbitmq.com/getstarted.html)
