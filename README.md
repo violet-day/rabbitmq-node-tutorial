@@ -11,3 +11,4 @@
 * [rabbitmq get started](https://www.rabbitmq.com/getstarted.html)
 * [amqp.node](http://www.squaremobius.net/amqp.node/)
 * [轻松搞定RabbitMQ](http://blog.csdn.net/column/details/rabbitmq-arron.html)
+* [RabbitMQ 使用参考](http://www.zouyesheng.com/rabbitmq.html)
